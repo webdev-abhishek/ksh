@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-image:url('/Img/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header_new {
+    display: flex;
+    margin:5% ;
+    margin-top: 1.5%;
+    align-items: center;
+    width: 90%;
+    height: 6vh;
+    background-color: rgba(0, 0, 0, 0.852);
+    border-radius: 35px;
+}
+
+.header_new a h1{
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.header_new a h1 span {
+    color: burlywood;
+}
+
+nav {
+    gap: 4rem;
+    color: burlywood;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+.side_img{
+    display: flex;
+    float: right;
+    justify-content: right;
+}
+
+.side_img video {
+    width: 720px;
+    height: 405px;
+    border-radius: 25px;
+}
+
+.text {
+    color: aliceblue;
+    list-style: ;
+}
